@@ -1,15 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light" class="text-[3.29vw] sm:text-[2.5vw] md:text-[2.08vw] lg:text-[1.35vw]">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meal-BD</title>
 
+        <!--icons-->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
           <!--daisy ui-->
           <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
         <script src="https://cdn.tailwindcss.com"></script>
+
+        <!--style-->
+
+        <style>
+       @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+       .poppins{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+       }
+        </style>
 </head>
-<body>
+       
+   
+<body class="poppins">
+
+     <header>
+                  <!--navbar starts from here-->
+
+     <nav class="bg-white">
+        <div class="w-10/12 mx-auto  flex justify-between items-center my-5">
+            <h1 class="text-[1.3rem] text-[#403F3F] font-bold">Tasty HUT</h1>
+            <button class="text-[1.1rem] text-black font-semibold px-4 py-2 bg-[#FFC107] rounded-md">Sign Up</button>
+        </div>
+
+     </nav>               
+
+                   <!--navbar ends-->
+
+    
+
+                   <!--banner section-->
+
+     <div  class="bg-[url('/images/banner_1.png')] bg-no-repeat bg-cover bg-center h-[36rem] relative">
+        <div class="h-[36rem] bg-[#100F0FB3] flex flex-col justify-center items-center ">
+            <div class="w-[85%] lg:w-[52%] text-center">
+                <h1 class="text-[2.5rem] md:text-[3.4rem] font-bold text-white leading-[3rem] md:leading-[4rem]">Taste Our Delicious Best Foods</h1>
+                <p class="text-[0.86rem] text-white pt-4 pb-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humou.</p>
+
+
+               <div class="bg-white w-[93%] md:w-[89%] lg:w-[93%] mx-auto flex justify-between items-center rounded-md">
+                <div class="pl-5 ">
+                    <i class="fa-solid fa-magnifying-glass text-[#706F6F]"></i>
+                <input  type="text" placeholder="Search any food" class="placeholder-[#706F6F] ">
+                </div>
+                <button class="text-[1.1rem] text-black font-semibold px-4 py-2 bg-[#FFC107] rounded-md ">Search</button>
+            </div>
+            </div>
+
+        </div>
+     </div>
+     
+     </header>
+    
     
 
     <script src="./script.js"></script>
